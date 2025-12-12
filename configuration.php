@@ -16,7 +16,6 @@ if ($auth->isAuthenticated()) {
 #
 #}
 
-
 ## All users see these
 /*
  * Example
@@ -24,17 +23,17 @@ if ($auth->isAuthenticated()) {
 $dashboard = $this->dashboard(N_('Example'), array('priority' => 100));
 $dashboard->add(
     N_('Tactical Overview'),
-    'monitoring/tactical',
+    'icingadb/tactical',
     100
 );
 $dashboard->add(
     N_('Service Problems'),
-    'monitoring/list/services?service_problem=1&sort=service_severity&dir=desc',
+    'icingadb/services?service.state.is_problem=y&sort=service.state.severity%20desc',
     110
 );
 $dashboard->add(
     N_('Host Problems'),
-    'monitoring/list/hosts?host_problem=1&sort=host_severity&dir=desc',
+    'icingadb/hosts?host.state.is_problem=y&sort=host.state.severity%20desc',
     120
 );
 
