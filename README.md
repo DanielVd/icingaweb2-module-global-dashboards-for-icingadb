@@ -1,13 +1,10 @@
 # Global Dashboards Module for Icingaweb2 with Icinga DB
 This module is a template for managing custom global dashboards in Icingaweb2 with Icinga DB. Fork this repository, customise the dashboards for your own needs then deploy them to Icingaweb2 as you would any other module.
 
-![Icinga Web 2](https://img.shields.io/badge/Icinga-Web%202-blue)
-![Icinga DB](https://img.shields.io/badge/Icinga-DB-orange)
-![License](https://img.shields.io/github/license/DanielVd/icingaweb2-module-global-dashboards-for-icingadb)
-![Last Commit](https://img.shields.io/github/last-commit/DanielVd/icingaweb2-module-global-dashboards-for-icingadb)
-![Issues](https://img.shields.io/github/issues/DanielVd/icingaweb2-module-global-dashboards-for-icingadb)
-![Icingaweb2 Module](https://img.shields.io/badge/Icingaweb2-Module-informational)
-![Community Supported](https://img.shields.io/badge/Support-Community-lightgrey)
+![Language](https://img.shields.io/badge/language-PHP-777BB4)
+![License](https://img.shields.io/badge/license-GPL--2.0--or--later-blue)
+![Monitoring](https://img.shields.io/badge/Icinga-IcingaDB-orange)
+![Type](https://img.shields.io/badge/module-Icingaweb2-informational)
 
 ## Setup
 1. Fork'd the repository and have added your own dashboards
@@ -44,3 +41,13 @@ if (in_array("example_group", $userGroups)) {
 }
 ```
 _Note you will need to add permissions for that groups role as well._
+
+---
+
+## License
+
+This project is based on an adapted fork of an existing Icingaweb2 module. The original repository did not specify a license. 
+
+All modifications and additions in this repository are licensed under the GNU General Public License v2.0 or later (GPL-2.0-or-later).
+
+If the original author wishes to clarify or specify licensing terms, this repository can be updated accordingly.
