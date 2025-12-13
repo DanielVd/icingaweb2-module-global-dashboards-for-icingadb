@@ -1,6 +1,14 @@
 # Global Dashboards Module for Icingaweb2 with Icinga DB
 This module is a template for managing custom global dashboards in Icingaweb2 with Icinga DB. Fork this repository, customise the dashboards for your own needs then deploy them to Icingaweb2 as you would any other module.
 
+![Icinga Web 2](https://img.shields.io/badge/Icinga-Web%202-blue)
+![Icinga DB](https://img.shields.io/badge/Icinga-DB-orange)
+![License](https://img.shields.io/github/license/DanielVd/icingaweb2-module-global-dashboards-for-icingadb)
+![Last Commit](https://img.shields.io/github/last-commit/DanielVd/icingaweb2-module-global-dashboards-for-icingadb)
+![Issues](https://img.shields.io/github/issues/DanielVd/icingaweb2-module-global-dashboards-for-icingadb)
+![Icingaweb2 Module](https://img.shields.io/badge/Icingaweb2-Module-informational)
+![Community Supported](https://img.shields.io/badge/Support-Community-lightgrey)
+
 ## Setup
 1. Fork'd the repository and have added your own dashboards
 2. Install the module to Icingaweb2
